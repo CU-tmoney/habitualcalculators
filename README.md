@@ -49,7 +49,7 @@ After analyzing the different predictor variables that we could use, our team ch
 
 ![ScreenShot](https://github.com/CU-tmoney/habitualcalculators/blob/master/Project%20Visuals/Proj3.JPG)
 
-Basic inital analysis led our team to be able to see trends between mean successful projects and mean failed projects.
+Basic initial analysis led our team to be able to see trends between mean successful projects and mean failed projects.
 
 ![ScreenShot](https://github.com/CU-tmoney/habitualcalculators/blob/master/Project%20Visuals/Proj4.JPG)
 
