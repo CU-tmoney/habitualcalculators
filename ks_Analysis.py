@@ -66,13 +66,9 @@ failed_sum = ks[ks['is_success']==0]['goal'].sum()
 mean_Success = "${:,.2f}".format(ks[ks['is_success']==1]['goal'].mean())
 mean_Failed = "${:,.2f}".format(ks[ks['is_success']==0]['goal'].mean())
 
-print()
 print("The average successful Kickstarter project had a goal of " + str(mean_Success) + ".")
-print()
 print("The average failed Kickstarter project had a goal of " + str(mean_Failed) + ".")
-print()
 print("The mean failed Kickstarter project had an average goal 15x that of the mean successful Kickstarter project.\n")
-print()
 # The above summary states a good relationship beween goal and success rate of a funding
 
 
@@ -83,11 +79,8 @@ failed_fund = ks[ks['is_success']==0]['usd_pledged'].sum()
 mean_FundSuccess = '${:,.2f}'.format(ks[ks['is_success']==1]['usd_pledged'].mean())
 mean_FundFailed = '${:,.2f}'.format(ks[ks['is_success']==0]['usd_pledged'].mean())
 
-print()
 print('The average successful Kickstarter project was funded at ' + str(mean_FundSuccess) + ' vs the mean goal of ' + str(mean_Success) + '.')
-print()
 print('The average failed Kickstarter project was funded at ' + str(mean_FundFailed) + ' vs the mean goal of ' + str(mean_Failed) + '.')
-print()
 		
 """
 Lets clean the data now and keep only those data which are making impact: keep only the relevant data. 
